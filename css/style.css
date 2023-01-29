@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #23376D;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #16233F;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 90vh !important;
+    background: url(https://scontent.fgua5-1.fna.fbcdn.net/v/t31.18172-8/23415485_10155877910279740_7702215865103316124_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=sGCygx6DM8AAX8BJTsp&_nc_oc=AQki7D-WSu3Wi4WJgVOrPnqn2WYYYOYG24FksmEcJZlDC00jVGwDuHSHuAQWUU1A7Dc&_nc_ht=scontent.fgua5-1.fna&oh=00_AfDPDp2qtf_HDn2onjY-Fy0I3GFmk8rVPowauw4YiMPJAg&oe=63FCB6FD) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 2%;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#tit1 {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #fff;
+    width: 85%;
+}
+
+#p1 {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #16233F;
+    height: 250vh;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    position: absolute;
+    padding-top: 80px;
+
+}
+
+.box-container .box {
+    height: 17rem;
+    width: 32rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 1rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.box-container .box p {
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.about {
+    background: #1F2663;
+}
+
+.price {
+    background: url(https://static.wixstatic.com/media/128120_d74dc1532edd4a55b6c660218c1d5895~mv2.jpg/v1/fill/w_1898,h_898,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/128120_d74dc1532edd4a55b6c660218c1d5895~mv2.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: white;
+    padding-bottom: 0;
+}
+
+.diseño{
+    color: black;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 25%;
+    background-color: rgb(47, 154, 255,0.5);
+}
+
+#partners{
+    width: 100%;
+    height: 60%;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+}
+
+#yo {
+    position: relative;
+    width: 200px;
+    height: 75px;
+}
+
+#tit2 {
+    position: absolute;
+    padding-bottom: 110%;
+}
+
+
+.boxTU {
+    height: 17rem;
+    width: 32rem;
+}
+
+#b1 {
+    background-color: #FDB500;
+}
+
+#b2 {
+    background-color: #1F2663;
+}
+
+#b3 {
+    background-color: #7D0A42;
+}
+
+#b4 {
+    background-color: #FBB400;
+}
+
+#b5 {
+    background-color: #7D0A42;
+}
+
+
+.box-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    position: absolute;
+    padding-top: 110px;
+
+}
+
+.box-container2 .box {
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 1rem;
+}
+
+.box-container2 .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container2 .box h3 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.box-container2 .box p {
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#b6 {
+    background-color: #FDCC00;
+}
+
+#b7 {
+    background-color: #76093E;
+}
+
+#b8 {
+    background-color: #213468;
+}
+
+#b9 {
+    background-color: #EB7207;
+}
+
+#tit3 {
+    padding-bottom: 25%;
+}
+
+#hrline{
+
+        height: 5px;
+        width: 50%;
+        margin-left: 60px;
+        background-color: white;
+}
+
+#tit4{
+    background-color: #213468;
+    font-family: wfont_128120_135e371b3c8a4cc784e9ad57ce259413,wf_135e371b3c8a4cc784e9ad57c,orig_gloss_and_bloom;
+
+}
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 4000;
+}
+
+.social ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */	
+  
+
+}
+
+.social ul li a:hover {
+    background: #23376D; /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    
+}
+
+.icon-social {
+    width: 45px;
+    height: 45px;
+}
+

@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+#body {
+    background-color: #23376D;
+}
+
+
+.sec {
+    background-color: #23376D;
+}
+
+
+#titulo{
+    text-align:center;
+    font-size: 45px;
+    font-family:Georgia;
+    
+}
+
+#hrline{
+    height: 5px;
+    width: 600%;
+    padding-right: 50%;
+    background-color: white;
+}
+
+
+header {
+    background-color: #23376D;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+footer {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 0px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+#copy {
+   text-align: center;
+   padding-top: 10px;
+   margin: 2px;
+   font-family: Georgia;
+}
+
+
+#menu {
+    background-color: white;
+    margin:  10px;
+}
+
+
+#carouselExampleControls{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 750px;
+    padding-top: 50px;
+   border-color: #fff;
+   border: 5px;
+    
+}
+
+
+#menu ul li a {
+    color: #fff;;
+    padding: 15px;
+    display: block;
+
+}
+
+#menu ul li {
+    background-color: rgb(31, 38, 99, 0.5);
+    margin: 4px;
+    margin-top: 3px;
+
+}
+
+
+#menu ul li a:hover {
+    background-color: #000;
+    color: white;
+}
+
+
+
+#contenido {
+    padding: 28px;
+    border: 4px;
+    color: #fff;
+    
+}
+
+.descripcion {
+    font-size: 25px;
+    margin: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+  
+   
+}
+
+
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 4000;
+}
+
+.social ul {
+		list-style: none;
+        font-family:Georgia;
+}
+
+.social ul li a {
+		display: inline-block;
+		
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */	
+}
+
+	
+
+
+	.social ul li a:hover {
+		background: #23376D; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+        
+	}
+
+    
+
+    .icon-social {
+        width: 45px;
+        height: 45px;
+    }
+
+    aside{
+        background-color: #3d4243;
+    }
+
+#texto {
+    z-index: 1;
+    color: #fff;
+    font-family: Georgia;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    
+}
+    
+
+#texto { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 300px; 
+    text-align: center; 
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #fff;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#yo {
+    width: 300px;
+    height: 300px;
+}
+
+#yo2 {
+    width: 300px;
+    height: 300px;
+}
+
+#yo3 {
+    width: 300px;
+    height: 300px;
+}
+
+
+#rick{
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    padding-right: 400px;
+}
+
+#rick2{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    padding-left: 480px;
+    padding-bottom: 100px;
+
+}
